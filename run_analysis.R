@@ -67,4 +67,4 @@ names(all_combined) <- gsub("std", "Std", names(all_combined))
 tidy_data <- ddply(all_combined, c("subject_id","activity_id","activity_label"), numcolwise(mean))
 
 # Download summarized average data in a file
-write.csv(tidy_data, file="tidy_data.csv")
+write.table(tidy_data, file="tidy_data.txt", row.names = FALSE)
