@@ -1,6 +1,6 @@
 # Assignment: Getting and Cleaning Data Course Project
 
-##For each record it is provided:
+## For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -8,7 +8,7 @@
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-##The dataset includes the following files:
+## The dataset includes the following files:
 
 - 'README.txt'
 
